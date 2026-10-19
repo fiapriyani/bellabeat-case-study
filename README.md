@@ -144,4 +144,6 @@ Read the full analysis, including code and visualizations, on Medium:
 ## References
 
 - [Fitbit Fitness Tracker Data — Mobius, Kaggle](https://www.kaggle.com/datasets/arashnic/fitbit)
+- [Fitabase Fitbit Data Dictionary](https://www.fitabase.com/media/2101/fitabase-fitbit-data-dictionary-as-of-11325.pdf) — Used to interpret the `IsManualReport` field in the weight log dataset.
 - [BMI cutoffs according to WHO standards](https://gateway.euro.who.int/en/indicators/mn_survey_19-cut-off-for-bmi-according-to-who-standards/)
+

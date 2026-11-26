@@ -50,7 +50,7 @@ Here, “usage” means the presence of records in the dataset; it does not dire
 
 ### 1. Moderate-usage participants formed the largest group
 
-**57.1%** of participants fell into the moderate-usage category. High-usage participants formed the smallest group. These categories describe relative recording frequency within this sample, based on quartile thresholds.
+**54.3%** of participants fell into the moderate-usage category. High-usage participants formed the smallest group. These categories describe relative recording frequency within this sample, based on quartile thresholds.
 
 ### 2. Activity files had broader coverage than sleep, heart rate, and weight
 
@@ -80,7 +80,7 @@ Manual-entry effort is a possible barrier to investigate; the dataset cannot con
 
 ### 5. Sleep records were missing on some activity days
 
-Sleep-record availability varied between participants. For example:
+Sleep-record availability varied between participants. The following examples are from the 10 users with the highest total activity days:
 
 - Participant `2347167796` had sleep records on all **14 activity days**.
 - Participant `4020332650` had sleep records on **15 of 32 activity days**.
@@ -123,17 +123,37 @@ The findings should guide further research and testing rather than be generalize
 
 ## Visualizations
 
-### Fitbit User Usage Level Distribution
+The following visualizations highlight key patterns identified throughout the analysis.
 
-![Fitbit user usage level distribution](<Bellabeat Visualization/fitbit-user-usage-level-distribution.png>)
+### 1. Fitbit User Usage Level Distribution
 
-### Recorded Days and Average Daily Steps
+Shows the distribution of participants across low, moderate, and high usage categories.
+![Fitbit User Usage Distribution](Bellabeat%20Visualization/distribution-of-users-chart.png)
 
-![Recorded days and average daily steps correlation](<Bellabeat Visualization/fitbit-usage-days-average-daily-steps-correlation.png>)
+### 2. Participant Coverage Across Fitbit Features
 
-### Participant Coverage Across Fitbit Features
+Compares the number of unique participants recorded in each Fitbit data file.
+![Number of Users by Features](Bellabeat%20Visualization/number-of-users-by-features.png)
 
-![Participant coverage across Fitbit features](<Bellabeat Visualization/fitbit-feature-usage-number-of-users.png>)
+### 3. Recorded Days vs. Average Daily Steps
+
+Illustrates the relationship between tracking frequency and average daily steps, showing a moderate positive correlation (r = 0.41).
+![Correlation Chart](Bellabeat%20Visualization/correlation-chart.png)
+
+### 4. Weight-Logging Method Among Users
+
+Compares manual and non-manual weight entries among the 11 participants with weight records.
+![Weight Logging Method](Bellabeat%20Visualization/weight-logging-method-chart.png)
+
+### 5. BMI Distribution Among Weight-Logging Users
+
+Shows the BMI categories among participants who recorded their weight.
+![BMI Distribution](Bellabeat%20Visualization/bmi-distribution-chart.png)
+
+### 6. Activity Days vs. Sleep-Record Availability
+
+Compares activity days with and without matching sleep records among the 10 participants with the highest number of activity days. This focused visualization highlights differences in sleep-tracking consistency and does not represent all participants.
+![Sleep Records Availability](Bellabeat%20Visualization/sleep-records-are-missing.png)
 
 ## Full Article
 
